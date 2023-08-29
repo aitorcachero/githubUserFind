@@ -65,7 +65,7 @@ function User({ usuario }) {
             <tr>
               <td>
                 Twitter:{' '}
-                <a href={`https://twitter.com${userData.twitter_username}`}>
+                <a href={`https://twitter.com/${userData.twitter_username}`}>
                   @{userData.twitter_username}
                 </a>
               </td>
