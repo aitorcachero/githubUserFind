@@ -1,0 +1,9 @@
+#error {
+  color: red;
+}
+
+#img {
+  margin-top: 1.5rem;
+  width: 100px;
+  border-radius: 1000px;
+}
