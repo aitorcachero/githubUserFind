@@ -35,6 +35,7 @@ function User({ usuario }) {
           <p>Ubicación: {userData.location}</p>
           <p>Seguidores: {userData.followers}</p>
           <p>Siguiendo: {userData.following}</p>
+          <p>Repositorios públicos: {userData.public_repos}</p>
         </div>
       ) : (
         <p>Cargando datos...</p>
