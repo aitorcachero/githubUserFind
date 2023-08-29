@@ -3,7 +3,50 @@
 }
 
 #img {
-  margin-top: 1.5rem;
+  margin: 1.5rem;
   width: 100px;
   border-radius: 1000px;
+}
+
+#table {
+  display: flex;
+  flex-direction: column;
+  background-color: #222;
+  text-align: center;
+  width: 600px;
+  margin-top: 1rem;
+  border-radius: 20px;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+td {
+  border-collapse: collapse;
+  width: 100%;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+tr {
+  border-collapse: collapse;
+  display: flex;
+  text-align: center;
+  width: 600px;
+}
+
+tr:first-child {
+  border-radius: 10px 10px 0 0;
+}
+
+tr:last-child {
+  border-radius: 0 0 10px 10px;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(41, 41, 42);
+}
+
+tr:nth-child(even) {
+  background-color: rgba(25, 25, 25, 0.628);
 }
