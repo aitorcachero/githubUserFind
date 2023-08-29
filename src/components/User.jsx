@@ -73,10 +73,7 @@ function User({ usuario }) {
           )}
           <tr>
             <td>
-              Página:{' '}
-              <a href={`https://api.github.com/users/${userData.login}`}>
-                LINK
-              </a>
+              Página: <a href={`https://github.com/${userData.login}`}>LINK</a>
             </td>
           </tr>
         </div>
