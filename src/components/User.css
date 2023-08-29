@@ -50,3 +50,12 @@ tr:nth-child(odd) {
 tr:nth-child(even) {
   background-color: rgba(25, 25, 25, 0.628);
 }
+
+@media (max-width: 900px) {
+  #table {
+    width: 400px;
+  }
+  tr {
+    width: 400px;
+  }
+}
